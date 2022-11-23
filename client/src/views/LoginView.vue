@@ -1,11 +1,13 @@
 <template>
-  <div class="home">
-    <h1>Home</h1>
-  </div>
+  <h1>Log in</h1>
 </template>
 
 <script>
-
 export default {
+
 }
 </script>
+
+<style>
+
+</style>
