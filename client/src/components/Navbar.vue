@@ -1,7 +1,7 @@
 <template>
     <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Vijeće mladih Novo Sarajevo</a>
+      <router-link class="navbar-brand" :to="{name: 'home'}">Vijeće mladih Novo Sarajevo</router-link>
       <button
         class="navbar-toggler"
         type="button"
