@@ -12,12 +12,11 @@ import Navbar from './components/Navbar.vue'
 export default{
   name: 'VMNS',
   components: {Navbar},
-
 }
 </script>
 
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap');
   html,
   body {
     margin: 0px;

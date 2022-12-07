@@ -11,7 +11,7 @@ export default {
   data(){
     return{
       title: "Vijeće mladih Općine Novo Sarajevo",
-      description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, doloribus?"
+      description: "Krovno udruženje mladih sa područja Općine Novo Sarajevo osnovano s ciljem da predstavlja i zastupa interese mladih i omladinskih udruženja sa područja ove Općine."
   }
 }
 }

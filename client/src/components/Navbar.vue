@@ -18,9 +18,9 @@
           <li class="nav-item">
             <router-link class="nav-link active" aria-current="page" :to="{name: 'home'}">Naslovna</router-link>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <router-link class="nav-link active" aria-current="page" :to="{name: 'news'}">Vijesti</router-link>
-          </li>
+          </li> -->
           <li class="nav-item">
             <router-link class="nav-link active" aria-current="page" :to="{name: 'organizations'}">Organizacije članice</router-link>
           </li>

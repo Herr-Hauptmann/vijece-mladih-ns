@@ -5,7 +5,7 @@
         <h1 class="title fs-1">{{ title }}</h1>
       </div>
       <div class="background_shadow">
-        <p class="definition fs-3">{{description}}</p>
+        <p class="definition fs-5">{{description}}</p>
       </div>
       <div class="mouse_scroll">
         <div class="mouse">
@@ -45,9 +45,12 @@ export default {
 }
 .definition{
   font-family: 'Poppins', sans-serif;
-  font-weight: 100;
+  font-weight: 400;
   color: white;
   padding-left: 4vw;
+  padding-right: 1vw;
+  padding-top:5px;
+  padding-bottom:5px;
 }
 .background_shadow{
   background-color: rgba(0, 0, 0, 0.5);
