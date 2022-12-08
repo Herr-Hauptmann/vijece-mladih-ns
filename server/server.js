@@ -1,20 +1,14 @@
 const express = require('express');
-const path = require('path');
-const publicRoutes = require('./routes/public');
+const {sequelize} = require("./models");
+const auth = require("./routes/auth");
 
 const app = express();
+app.use(express.json());
 
-const {sequelize} = require("./models");
-
-app.use(express.static(__dirname + 'static'));
-
-app.use(publicRoutes);
+app.use("/auth", auth);
 
 app.listen({port:3000}, async() =>{
     console.log("Server up!");
     await sequelize.authenticate();
     console.log("Database connected!");
 });
-
-module.exports = app;
-module.exports = path;
