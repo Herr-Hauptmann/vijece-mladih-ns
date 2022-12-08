@@ -2,6 +2,8 @@ const router = require("express").Router();
 const { check, validationResult } = require("express-validator");
 const {sequelize, User} = require('../models');
 const bcrypt = require("bcrypt");
+const JWT = require("jsonwebtoken");
+const env = require(__dirname + '/../env.json');
 
 router.post(
     "/signup",
@@ -42,13 +44,23 @@ router.post(
         //Hash password
         password = await bcrypt.hash(password, 10);
         
+        //Create user
         try{
             const user = User.create({
                 email:email,
                 password:password,
                 name: name
             });
-            res.json(user);
+
+            const token = await JWT.sign({
+                name
+            },env.secret, {
+                expiresIn:9000
+            })
+            //NOTE: Malo promisliti trajanje i refreshovanje sesije
+            res.json({
+                token
+            });
         }catch(err){
             return res.status(500).json({err});
         } 
