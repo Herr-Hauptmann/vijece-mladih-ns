@@ -22,14 +22,8 @@
             <router-link class="nav-link " aria-current="page" :to="{name: 'news'}">Vijesti</router-link>
           </li> -->
           <!-- <li class="nav-item">
-            <router-link class="nav-link " aria-current="page" :to="{name: 'organizations'}">Organizacije članice</router-link>
-          </li> -->
-          <!-- <li class="nav-item">
             <router-link class="nav-link " aria-current="page" :to="{name: 'documents'}">Dokumenti</router-link>
           </li> -->
-          <li class="nav-item">
-            <router-link class="nav-link " aria-current="page" :to="{name: 'vodic'}" active-class="active">Vodič za mlade</router-link>
-          </li>
           <li class="nav-item">
             <router-link class="nav-link " aria-current="page" :to="{name: 'contact'}" active-class="active">Kontaktiraj nas</router-link>
           </li>

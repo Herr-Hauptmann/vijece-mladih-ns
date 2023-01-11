@@ -1,13 +1,15 @@
 <template>
   <div>
     <Landing :title="title" :description="description" />
+    <Organizations />
   </div>
 </template>
 
 <script>
 import Landing from "../components/homepage/Landing.vue"
+import Organizations from "../components/homepage/Organizations.vue"
 export default {
-  components: {Landing},
+  components: {Landing, Organizations},
   data(){
     return{
       title: "Vijeće mladih Općine Novo Sarajevo",
