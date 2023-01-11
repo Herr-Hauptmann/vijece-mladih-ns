@@ -6,6 +6,7 @@ import DocumentsView from '../views/DocumentsView.vue'
 import LoginView from '../views/LoginView.vue'
 import NewsView from '../views/NewsView.vue'
 import ViewDocument from '../views/ViewDocument.vue';
+import OrganizationsView from '../views/OrganizationsView.vue';
 
 const routes = [
   {
@@ -27,6 +28,11 @@ const routes = [
     path: '/documents',
     name: 'documents',
     component: DocumentsView
+  },
+  {
+    path: '/organizations',
+    name: 'organizations',
+    component: OrganizationsView
   },
   {
     path: '/news',

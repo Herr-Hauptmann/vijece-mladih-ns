@@ -21,6 +21,9 @@
           <!-- <li class="nav-item">
             <router-link class="nav-link " aria-current="page" :to="{name: 'news'}">Vijesti</router-link>
           </li> -->
+          <li class="nav-item">
+            <router-link class="nav-link " aria-current="page" :to="{name: 'organizations'}">Organizacije</router-link>
+          </li>
           <!-- <li class="nav-item">
             <router-link class="nav-link " aria-current="page" :to="{name: 'documents'}">Dokumenti</router-link>
           </li> -->
