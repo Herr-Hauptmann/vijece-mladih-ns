@@ -73,10 +73,6 @@ export default {
 </script>
 
 <style scoped>
-.poravnanje{
-    text-align: justify;
-    text-justify: inter-word;
-}
 a:visited, a:hover, a:active, a:link, a{
     text-decoration: none;
     color:#555;
