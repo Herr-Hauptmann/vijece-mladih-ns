@@ -25,18 +25,18 @@ export default {
             organizacije : [
                 {
                     title: "Udruženje za razvoj i podršku mladih Plus Ultra",
-                    logo: "plusultra.png",
+                    logo: "plusultra.jpg",
                     link: "https://plusultra.ba"
                 },
                 {
                     title: "EESTEC LC Sarajevo",
                     subtitle: "EESTEC LC Sarajevo",
-                    logo: "eesteclcsarajevo.png",
+                    logo: "eesteclcsarajevo.jpg",
                     link: "https://eestec-sa.ba"
                 },
                 {
                     title: "Youth for peace",
-                    logo: "yfp.png",
+                    logo: "yfp.jpg",
                     link: "https://www.youth-for-peace.ba/en/",
                 },
                 {
