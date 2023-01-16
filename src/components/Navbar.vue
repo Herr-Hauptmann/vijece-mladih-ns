@@ -27,9 +27,9 @@
           <li class="nav-item">
             <router-link class="nav-link " aria-current="page" :to="{name: 'vodic'}">Vodič za mlade</router-link>
           </li>
-          <!-- <li class="nav-item">
+          <li class="nav-item">
             <router-link class="nav-link " aria-current="page" :to="{name: 'documents'}">Dokumenti</router-link>
-          </li> -->
+          </li>
           <li class="nav-item">
             <router-link class="nav-link " aria-current="page" :to="{name: 'contact'}" active-class="active">Kontaktiraj nas</router-link>
           </li>
@@ -43,7 +43,6 @@
 </template>
 
 <script setup>
-  const logo = "";
 </script>
 
 <style scoped>

@@ -5,7 +5,7 @@ import ContactView from '../views/ContactView.vue'
 import DocumentsView from '../views/DocumentsView.vue'
 import LoginView from '../views/LoginView.vue'
 import NewsView from '../views/NewsView.vue'
-import ViewDocument from '../views/ViewDocument.vue';
+import GuideView from '../views/GuideView.vue';
 import OrganizationsView from '../views/OrganizationsView.vue';
 
 const routes = [
@@ -42,7 +42,7 @@ const routes = [
   {
     path: '/vodic-za-mlade',
     name: 'vodic',
-    component: ViewDocument
+    component: GuideView
   }
 ]
 
