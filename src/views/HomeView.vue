@@ -2,8 +2,8 @@
   <div>
     <Landing :title="title" :description="description" />
     <Organizations />
+    <News />
     <ContactForm />
-    <Footer />
   </div>
 </template>
 
@@ -11,10 +11,11 @@
 import Landing from "../components/homepage/Landing.vue"
 import Organizations from "../components/homepage/Organizations.vue"
 import ContactForm from "../components/homepage/ContactForm.vue"
-import Footer from "../components/homepage/Footer.vue"
+import Footer from "../components/Footer.vue"
+import News from "../components/homepage/News.vue"
 
 export default {
-  components: {Landing, Organizations, ContactForm, Footer},
+  components: {Landing, Organizations, ContactForm, Footer, News},
   data(){
     return{
       title: "Vijeće mladih Općine Novo Sarajevo",

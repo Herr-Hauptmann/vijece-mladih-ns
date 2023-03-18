@@ -7,6 +7,7 @@ import LoginView from '../views/LoginView.vue'
 import NewsView from '../views/NewsView.vue'
 import GuideView from '../views/GuideView.vue';
 import OrganizationsView from '../views/OrganizationsView.vue';
+import NewsShow from '../components/admin/news/NewsShow.vue';
 
 const routes = [
   {
@@ -43,6 +44,11 @@ const routes = [
     path: '/vodic-za-mlade',
     name: 'vodic',
     component: GuideView
+  },
+  {
+    path: '/vijesti/opcina-po-mjeri-mladih',
+    name: 'vijest1',
+    component: NewsShow
   }
 ]
 
